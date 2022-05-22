@@ -1,0 +1,20 @@
+.module_wrap {
+    width: 40%;
+    padding: 1rem;
+    position: relative;
+    background: linear-gradient(to right, red, purple);
+    box-shadow: 9px 6px 13px -5px rgba(8,7,7,0.74);
+    padding: 3px;
+    
+  }
+  
+  .module {
+    background: #c8d8e4;
+    color: 000;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+  }

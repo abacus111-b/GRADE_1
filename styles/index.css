@@ -1,0 +1,245 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'lucida, serif';
+    height: 100vh;
+    background-color:#00203fff;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    right:0;
+    width: 100%;
+    z-index: 200;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: repeating-linear-gradient(#2b6777 ,#c8d8e4 50%, #52ab98)
+}
+.navbar a{
+    text-decoration: none;
+    color: #00203fff;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.navbar a:hover{
+    color: #ed7966;
+}
+.login{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #00203fff;
+    background-image: linear-gradient(to right, #00203fff, #f2f2f2);
+    font-size: 16px;
+    font-weight: 800;
+}
+  .login:hover{
+      background-image: linear-gradient(to left, #ed7966, #484545);
+  }
+
+
+ .dropbtn {
+    background-image: linear-gradient(to right, #00203fff, #f2f2f2);
+    color: #00203fff;
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800;
+    font-size: 16px;
+
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    margin-left: 10px;
+    display: none;
+    position: absolute;
+    background-color: #f2f2f2;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #00203fff}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #f2f2f2;
+  }
+
+  .container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  @keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(100px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(50px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(100px);
+	}
+}
+
+
+
+.profile {
+	width: 250px;
+	height: 300px;
+	border: 5px #adefd1ff solid;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+}
+
+.content{
+    margin-top: 100px;
+    /* margin-left: 10%; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10%;
+    row-gap: 30px;
+    color: #adefd1ff;
+}
+.name{
+    /* background-color: #f5cac2; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 30px;
+}
+.year{
+
+    font-style: italic;
+}
+.skill ul{
+    display: flex;
+    list-style-type: lower-greek;
+    
+    
+}
+.skill ul li{
+    margin-right: 50px;
+}
+
+.names{
+    font-size: 55px;
+    color: #ed7966;
+    font-family: 'smooch';
+}
+
+.razor{
+    width: 100%;
+    height: 400px;
+    background-color: #c8d8e4;
+    
+    position: relative;
+    margin-top: 150px;
+}
+.razor:before{
+    background-color: inherit;
+    position: absolute;
+    content: '';
+    width: 70%;
+    height: 270px;
+    top: -50px;
+    left: 0;
+    transform: skewY(10deg);
+}
+.razor:after{
+    background-color: inherit;
+    position: absolute;
+    content: '';
+    width: 70%;
+    height: 270px;
+    top: -50px;
+    right: 0;
+    /* bottom: 0; */
+    /* transform-origin: top left; */
+    transform: skewY(-10deg);
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background-color: #c8d8e4;
+    
+}
+.image{
+    margin-top: 8px;
+    
+}
+.abacus{
+    color:#303179;
+    font-family: 'smooch';
+    font-size: 24px;
+
+}
+.socials{
+    margin-bottom: 20px;
+  
+    
+
+}
+.icon{
+    margin-right: 40px;
+}
+.icon:hover{
+    background-color: aliceblue;
+    opacity: 0.3;
+}
+.reddit{
+    margin-top: -2px;
+}
+
+
+	
+
+
+
