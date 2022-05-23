@@ -19,7 +19,7 @@
             <a href="register.html">Register</a>
             <a href="log.html"><button class="login">Login</button></a>
             <div class="dropdown">
-                <button class="dropbtn">Calculator <img src="images/arrow1.png" width="12px" height="12px" alt=""></button>
+                <button class="dropbtn">Calculator <img src="Images/arrow1.png" width="12px" height="12px" alt=""></button>
                 <div class="dropdown-content">
                 <a href="calc-table.html">Calc_Table</a>
                 <a href="calc-flex.html">Calc_Flex</a>
@@ -30,29 +30,68 @@
     </nav>
     <main>
         <div class="container">
-            <div class="form_body">
-                <form action="#">
-                    <div class="name"><div class="name2">Name:</div> <input type="text"></div>
-                    <div class="name"><div class="name2">Email:</div><input type="email" required></div>
-                    <div class="prior">
-                        <div class="name2 ">Priority:</div>
-                        <select name="" id="select_btn">
-                            <option value="" selected>Priority</option>
-                            <option value="">Very Likely</option>
-                            <option value="">Likely</option>
-                            <option value="">Maybe</option>
-                            <option value="">Unlikey</option>
-                        </select>
-                    </div>
-                    <textarea name="" id="message" cols="30" rows="10" placeholder="Message:"></textarea>
-                    <div class="submit">
-                        <button class="submit_btn">Submit</button>
-                    </div>
-                    
-                    
+           <table class="cal">
+                <th class="cal-title"><h1>ABACUS</h1>
+                    <tr class="display">
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                    </tr>
+                </th>
+                    <tbody>
+                        <tr>
+                            
+                            <td class="cal-body">
+                                
+                                <table class="cust">
+                                    <tr>
+                                        <td class="btn">1</td>
+                                        <td class="btn">2</td>
+                                        <td class="btn">3</td>
+                                        <td class="btn"><img src="Images/back.png" alt=""></td>
+                                    </tr>
+                                </table>
+                                <table class="cust">
+                                    <tr>
+                                        <td class="btn">4</td>
+                                        <td class="btn">5</td>
+                                        <td class="btn">6</td>
+                                        <td class="btn">+</td>
+                                    </tr>
+                                </table>
+                                <table class="cust">
+                                    <tr>
+                                        <td class="btn">7</td>
+                                        <td class="btn">8</td>
+                                        <td class="btn">9</td>
+                                        <td class="btn">-</td>
+                                    </tr>
+                                </table>
+                                <table class="cust">
+                                    <tr>
+                                        <td class="btn">.</td>
+                                        <td class="btn">0</td>
+                                        <td class="btn">00</td>
+                                        <td class="btn">*</td>
+                                    </tr>
+                                </table>
+                                <table class="cust">
+                                    <tr>
+                                        <td class="btn">C</td>
+                                        <td colspan="2" class="equal">=</td>
+                                        <td class="btn">/</td>
+                                    </tr>
+                                </table>
 
-                </form>
-            </div>
+                            </td>
+                        </tr>
+                    </tbody>
+               </table>
+           
 
         </div>
         

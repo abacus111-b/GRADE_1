@@ -2,8 +2,11 @@
 #right__side{
 	display:flex;
 	flex-direction:column;
-	padding-bottom: 170px;
-	padding-right: 110px;
+    align-content: center;
+    justify-content: flex-start;
+	/* padding-bottom: 170px;
+	padding-right: 110px; */
+
 }
 input{
 	display: block;
